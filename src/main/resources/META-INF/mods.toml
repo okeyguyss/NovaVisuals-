@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="novavisuals"
+version="${file.jarVersion}"
+displayName="NovaVisuals"
+description='''
+Клиентские визуалы для 1.16.5: авто-спринт, Target HUD, настройка рук (ViewModel), HUD, Fullbright.
+Меню — Right Shift. Только клиент, на сервер ставить не нужно.
+'''
+
+[[dependencies.novavisuals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.novavisuals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="CLIENT"
